@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Trainquiry shows Washington Metro arrivals on your Home Screen, Lock Screen, and Apple Watch.">
+  <meta name="theme-color" content="#f8f8f6">
+  <title>Trainquiry | Washington Metro arrivals</title>
+  <link rel="icon" type="image/png" href="assets/app-icon.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js" defer></script>
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <div class="page">
+    <main class="intro">
+      <img class="app-icon" src="assets/app-icon.png" alt="" width="64" height="64">
+      <h1>Trainquiry</h1>
+      <p class="description">Washington Metro arrivals on your Home Screen, Lock Screen, and Apple Watch.</p>
+
+      <figure class="preview">
+        <div class="phone-preview">
+          <img src="assets/widget-home-screen.jpg" alt="Trainquiry widget on an iPhone Home Screen." width="1206" height="2622">
+        </div>
+      </figure>
+
+      <div class="download">
+        <a class="store-link" data-app-store hidden>View on the App Store</a>
+        <p class="release-status" data-release-status>Coming to the App Store.</p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <a href="mailto:trainquirydc@gmail.com">trainquirydc@gmail.com</a>
+      <details class="privacy" id="privacy">
+        <summary>Privacy</summary>
+        <article class="privacy-copy" aria-labelledby="policy-heading">
+          <h2 id="policy-heading">Privacy policy</h2>
+          <p class="policy-date">Last updated November 18, 2026</p>
+          <p>This policy covers the Trainquiry iPhone app, its widgets, and its Apple Watch app and complications.</p>
+
+          <h3>Data on your devices</h3>
+          <p>Trainquiry saves your Home and optional Work station choices, Favorites, selected directions and lines, sorting preferences, and downloaded transit information on your devices. It does not require an account with us. The app has no advertising, analytics, or third-party crash-reporting SDKs. We do not receive your saved stations or location through a server we operate, sell your personal information, or track you across other companies' apps and websites.</p>
+
+          <h3>Optional location</h3>
+          <p>If you enable Use my location and grant permission, the app uses your location to sort Favorites by distance and choose a nearby station across the Metro network for Anywhere. That station does not need to be saved as a Favorite. Anywhere uses your Home and optional Work station choices to calculate routes and filter arrivals locally. With Always permission, location can update in the background for Anywhere widgets. The app saves the latest latitude, longitude, accuracy, and timestamp on your iPhone. It does not build a location history or send your coordinates to us or WMATA.</p>
+          <p>A location older than six hours stops being used, but the saved record remains until replaced or removed. Turning off Use my location in the app's Settings stops monitoring and removes that record. You can also revoke permission in iPhone Settings. Manually selected stations work without location access.</p>
+
+          <h3>WMATA and Apple Watch</h3>
+          <p>The app and iPhone widgets download transit feeds directly from WMATA over HTTPS using the app's developer credential. You do not need to supply your own key. WMATA receives the credential and normal connection information, including the source IP address, requested feed, and request timing. Requests do not include your saved station selections or location coordinates. WMATA may keep records under its own policies. See <a href="https://www.wmata.com/about/public-records/privacy.html">WMATA's privacy policy</a>.</p>
+          <p>If you use Apple Watch, Apple's WatchConnectivity framework transfers Favorite and Anywhere display information, arrival predictions, and route instructions to your paired Watch. The Watch stores the latest display snapshot. It does not receive location coordinates or the WMATA credential.</p>
+
+          <h3>Retention and deletion</h3>
+          <p>Favorites, Home and Work station choices, and preferences remain until you change or remove them or remove the applicable app data. You can delete Favorites and change your Home and Work stations in the app. Transit caches and Watch snapshots are replaced as updates arrive. Predictions can expire for display before the saved files are erased. Watch updates depend on device connectivity.</p>
+          <p>To remove app data on both devices, remove the iPhone app and its Watch companion. Device backups and Keychain records left by earlier app versions can retain information separately from an app's ordinary files. The current app does not use Keychain for its developer credential. The app does not operate a cloud account or cloud sync service. Apple handles its platform services according to your settings and <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>. We do not hold a server copy of your location or app settings to delete.</p>
+
+          <h3>This website and support</h3>
+          <p>This page has no analytics, advertising scripts, external fonts, or contact forms. Its hosting provider may process ordinary web-request information. External links lead to services with their own privacy policies.</p>
+          <p>If you email <a href="mailto:trainquirydc@gmail.com">trainquirydc@gmail.com</a>, we receive your address and whatever you choose to send. We use that information to handle your request and keep it only as long as needed for that purpose and any applicable legal obligations. You can ask us to delete your correspondence.</p>
+          <p>We will update this policy if the app's data practices change.</p>
+        </article>
+      </details>
+    </footer>
+    <p class="independent">Data from WMATA. Trainquiry is not affiliated with or endorsed by WMATA.</p>
+  </div>
+</body>
+</html>
