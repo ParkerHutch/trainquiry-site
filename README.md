@@ -1,6 +1,6 @@
-# Trainquiry website
+# Trainquility website
 
-Static app, support and privacy page for Trainquiry. It contains public website files only: no native app source, WMATA credentials, analytics or backend service. The widget image shows sample arrivals.
+Static app, support and privacy page for Trainquility. It contains public website files only: no native app source, WMATA credentials, analytics or backend service. The widget image shows sample arrivals.
 
 ## GitHub Pages
 
