@@ -1,6 +1,8 @@
 # Trainquility website
 
-Static app, support and privacy page for Trainquility. It contains public website files only: no native app source, WMATA credentials, analytics or backend service. The widget image shows sample arrivals.
+Static app, support and privacy page for Trainquility. It contains public website files only: no native app source, WMATA credentials, analytics or backend service. The widget images show sample arrivals.
+
+The main preview opens on the Lock Screen, with a small local switch for the Home Screen example. `assets/widget-lock-screen.jpg` and `assets/widget-home-screen.jpg` are real simulator captures of the widgets. Keep the visible sample-arrival disclosure and image descriptions when replacing them. The Lock Screen image remains visible if JavaScript is disabled; no analytics or network requests are added by the switch.
 
 ## GitHub Pages
 

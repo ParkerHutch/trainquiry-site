@@ -3,25 +3,30 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Trainquility shows Washington Metro arrivals on your Home Screen, Lock Screen, and Apple Watch.">
+  <meta name="description" content="Trainquility shows Washington Metro arrivals on your Lock Screen, Home Screen, and Apple Watch.">
   <meta name="theme-color" content="#f8f8f6">
   <title>Trainquility | Washington Metro arrivals</title>
   <link rel="icon" type="image/png" href="assets/app-icon.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=20261121-lock-screen">
   <script src="config.js" defer></script>
-  <script src="site.js" defer></script>
+  <script src="site.js?v=20261121-lock-screen" defer></script>
 </head>
 <body>
   <div class="page">
     <main class="intro">
       <img class="app-icon" src="assets/app-icon.png" alt="" width="64" height="64">
       <h1>Trainquility</h1>
-      <p class="description">Washington Metro arrivals on your Home Screen, Lock Screen, and Apple Watch.</p>
+      <p class="description">Washington Metro arrivals on your Lock Screen, Home Screen, and Apple Watch.</p>
 
       <figure class="preview">
-        <div class="phone-preview">
-          <img src="assets/widget-home-screen.jpg" alt="Trainquility widget showing sample arrivals on an iPhone Home Screen." width="1170" height="2532">
+        <div class="preview-options" role="group" aria-label="Widget preview" data-preview-controls hidden>
+          <button type="button" data-preview="lock" aria-pressed="true" aria-controls="widget-preview">Lock Screen</button>
+          <button type="button" data-preview="home" aria-pressed="false" aria-controls="widget-preview">Home Screen</button>
         </div>
+        <div class="phone-preview">
+          <img id="widget-preview" data-preview-image src="assets/widget-lock-screen.jpg" alt="Trainquility widgets showing sample arrivals on an iPhone Lock Screen." width="1206" height="2622">
+        </div>
+        <figcaption class="preview-caption">Sample arrivals</figcaption>
       </figure>
 
       <div class="download">
