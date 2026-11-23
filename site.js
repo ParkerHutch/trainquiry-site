@@ -13,8 +13,8 @@ const previews = {
     height: 2622
   },
   home: {
-    src: "assets/widget-home-screen.jpg",
-    alt: "Trainquility widget showing sample arrivals on an iPhone Home Screen.",
+    src: "assets/widget-home-screen.jpg?v=20261123-clean-home",
+    alt: "Trainquility widget combining Orange and Silver Line sample arrivals at Ballston-MU on a Home Screen with only the Trainquility app icon.",
     width: 1170,
     height: 2532
   }

@@ -4,6 +4,8 @@ Static app, support and privacy page for Trainquility. It contains public websit
 
 The main preview opens on the Lock Screen, with a small local switch for the Home Screen example. `assets/widget-lock-screen.jpg` and `assets/widget-home-screen.jpg` are real simulator captures of the widgets. Keep the visible sample-arrival disclosure and image descriptions when replacing them. The Lock Screen image remains visible if JavaScript is disabled; no analytics or network requests are added by the switch.
 
+The Home Screen example shows Ballston-MU arrivals for Orange and Silver together, with only Trainquility's app icon on that simulator page. The other apps were moved to App Library, not deleted. The image is a genuine iOS 26.2 Simulator capture using the existing demo data, which also includes a shuttle sample. The raw PNG is retained with the project's screenshots; the website uses a JPEG export.
+
 ## GitHub Pages
 
 Publish this separate repository using **Settings → Pages → Deploy from a branch → main → / (root)**. The `.nojekyll` file keeps the site buildless. All asset paths are relative so the page works at a project-site URL.
